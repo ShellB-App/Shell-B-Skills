@@ -1,0 +1,46 @@
+name: Submit a skill
+description: Share a skill without using git. A maintainer adds it to the catalogue with you as the author.
+title: "[Skill] "
+labels: [skill-submission]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Paste your SKILL.md (front matter and all). If it bundles files, link them. You'll be credited as the author.
+  - type: input
+    id: name
+    attributes:
+      label: Skill name
+      description: lowercase letters, digits and dashes
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Credit as
+    validations:
+      required: true
+  - type: input
+    id: author-url
+    attributes:
+      label: Link for your name (optional)
+      placeholder: https://github.com/you
+  - type: dropdown
+    id: license
+    attributes:
+      label: License
+      options: [MIT, CC0-1.0, CC-BY-4.0, Apache-2.0]
+    validations:
+      required: true
+  - type: textarea
+    id: skill
+    attributes:
+      label: SKILL.md
+      render: markdown
+    validations:
+      required: true
+  - type: input
+    id: files
+    attributes:
+      label: Bundled files (optional)
+      placeholder: link to a gist or zip
