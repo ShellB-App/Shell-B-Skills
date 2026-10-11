@@ -1,6 +1,6 @@
 # How a finished screensaver is organised (Koi Pond)
 
-`Koi Pond` (github.com/EveAeternam/Shell-B-Screensavers, `screensavers/koi-pond`) is 600 lines that follow one shape:
+`Koi Pond` (github.com/ShellB-App/Shell-B-Screensavers, `screensavers/koi-pond`) is 600 lines that follow one shape:
 
 1. **A `CFG` block at the top**: water colours, moon position and size, koi count and speeds, ripple limits, lily pad
    count, the reduced-motion factor. Everything a reviewer might want to tune is there and nowhere else.

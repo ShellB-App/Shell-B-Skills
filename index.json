@@ -6,7 +6,7 @@
    "name": "shellb-screensaver",
    "description": "Build a Shell:B screensaver (a full-window Canvas 2D animation in a Studio Screensaver project) when the user asks for a screensaver, idle screen or ambient animation for Shell:B; covers the rules it must follow to run for hours, the project files, previewing, and packaging it for the Shell-B-Screensavers community repository.",
    "author": "Shell:B",
-   "authorUrl": "https://github.com/EveAeternam/Shell-B",
+   "authorUrl": "https://github.com/ShellB-App/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [
@@ -24,7 +24,7 @@
    "name": "shellb-theme-design",
    "description": "Design a custom Shell:B interface theme with the design_theme tool when the user asks for a new look, colours, mood or style for Shell:B itself (not for a website or project), then refine it from feedback and, if they want to share it, package it for the Shell-B-Themes community repository.",
    "author": "Shell:B",
-   "authorUrl": "https://github.com/EveAeternam/Shell-B",
+   "authorUrl": "https://github.com/ShellB-App/Shell-B",
    "license": "MIT",
    "version": "1.0",
    "tags": [

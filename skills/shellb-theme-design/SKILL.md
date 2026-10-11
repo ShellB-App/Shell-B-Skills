@@ -2,7 +2,7 @@
 name: shellb-theme-design
 description: Design a custom Shell:B interface theme with the design_theme tool when the user asks for a new look, colours, mood or style for Shell:B itself (not for a website or project), then refine it from feedback and, if they want to share it, package it for the Shell-B-Themes community repository.
 author: Shell:B
-authorUrl: https://github.com/EveAeternam/Shell-B
+authorUrl: https://github.com/ShellB-App/Shell-B
 license: MIT
 version: "1.0"
 tags: [shell-b, theme, design, appearance]
@@ -80,7 +80,7 @@ See `references/example-theme.json` for a complete, validated specification.
 
 ## 5. Sharing it with the community
 
-Themes live in the Shell-B-Themes repository (github.com/EveAeternam/Shell-B-Themes), and anyone can add one. When
+Themes live in the Shell-B-Themes repository (github.com/ShellB-App/Shell-B-Themes), and anyone can add one. When
 the user wants to share theirs:
 
 1. Tell them to open Settings → Appearance, hover their theme under *Designed by Shell:B* and press the **Export**

@@ -2,7 +2,7 @@
 name: shellb-screensaver
 description: Build a Shell:B screensaver (a full-window Canvas 2D animation in a Studio Screensaver project) when the user asks for a screensaver, idle screen or ambient animation for Shell:B; covers the rules it must follow to run for hours, the project files, previewing, and packaging it for the Shell-B-Screensavers community repository.
 author: Shell:B
-authorUrl: https://github.com/EveAeternam/Shell-B
+authorUrl: https://github.com/ShellB-App/Shell-B
 license: MIT
 version: "1.0"
 tags: [shell-b, screensaver, canvas, animation, studio]
@@ -68,7 +68,7 @@ Appearance → Screensaver).
 
 ## 5. Sharing it with the community
 
-Screensavers live in github.com/EveAeternam/Shell-B-Screensavers. A folder `screensavers/<id>/` holds:
+Screensavers live in github.com/ShellB-App/Shell-B-Screensavers. A folder `screensavers/<id>/` holds:
 
 ```
 saver.json     {"name", "blurb", "author", "authorUrl", "license", "version", "tags", "clockSafe", "credits"}
