@@ -3,6 +3,79 @@
  "kind": "skill",
  "items": [
   {
+   "name": "audit-code",
+   "description": "Review or audit Shell:B's own code (or a Code workspace) and write findings that hold up: map it, read it, prove every claim with file:line. Use when asked to review, audit, scrutinize or find bugs or security problems in the code, or to recommend fixes and features from it.",
+   "author": "Shell:B",
+   "authorUrl": "https://github.com/ShellB-App/Shell-B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "shell-b",
+    "code-review",
+    "audit",
+    "built-in"
+   ],
+   "path": "skills/audit-code/SKILL.md",
+   "words": 488,
+   "files": 1
+  },
+  {
+   "name": "email-drafting",
+   "description": "Draft emails and replies that sound like the user and get to the point: answers to messages in their inbox, follow-ups, requests, difficult or delicate messages, and versions in another language. Use when the user asks you to write, draft, answer, reply to, rephrase, soften or translate an email or message, or to go through their inbox and say what needs an answer.",
+   "author": "Shell:B",
+   "authorUrl": "https://github.com/ShellB-App/Shell-B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "email",
+    "writing",
+    "work",
+    "inbox",
+    "communication"
+   ],
+   "path": "skills/email-drafting/SKILL.md",
+   "words": 553,
+   "files": 1
+  },
+  {
+   "name": "job-application",
+   "description": "Help with a job hunt: find openings that fit, tailor a CV and cover letter to one posting, keep track of applications and prepare for interviews. Use when the user asks for help finding a job, applying for a position, writing or updating a CV, résumé or cover letter, or getting ready for an interview.",
+   "author": "Shell:B",
+   "authorUrl": "https://github.com/ShellB-App/Shell-B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "jobs",
+    "career",
+    "cv",
+    "cover-letter",
+    "interview",
+    "writing"
+   ],
+   "path": "skills/job-application/SKILL.md",
+   "words": 686,
+   "files": 1
+  },
+  {
+   "name": "research-with-sources",
+   "description": "Research a question properly and answer with sources the user can check: search, read the sources themselves, separate what is established from what is debated, and cite every claim. Use when the user asks to research, look into, dig up or fact-check a topic, wants sources or references, or asks about history, archaeology, science or anything where being right matters more than being quick.",
+   "author": "Shell:B",
+   "authorUrl": "https://github.com/ShellB-App/Shell-B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "research",
+    "sources",
+    "citations",
+    "history",
+    "science",
+    "fact-check"
+   ],
+   "path": "skills/research-with-sources/SKILL.md",
+   "words": 579,
+   "files": 1
+  },
+  {
    "name": "shellb-screensaver",
    "description": "Build a Shell:B screensaver (a full-window Canvas 2D animation in a Studio Screensaver project) when the user asks for a screensaver, idle screen or ambient animation for Shell:B; covers the rules it must follow to run for hours, the project files, previewing, and packaging it for the Shell-B-Screensavers community repository.",
    "author": "Shell:B",
@@ -36,6 +109,59 @@
    "path": "skills/shellb-theme-design/SKILL.md",
    "words": 983,
    "files": 2
+  },
+  {
+   "name": "summarize-documents",
+   "description": "Summarize documents, meeting recordings, long email threads or web pages into what the reader needs: the gist, the decisions, the numbers and who has to do what by when. Use when the user asks to summarize, sum up, recap, condense or get the key points or action items from a file, a recording, a meeting, an email thread or a link.",
+   "author": "Shell:B",
+   "authorUrl": "https://github.com/ShellB-App/Shell-B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "summary",
+    "documents",
+    "meetings",
+    "work",
+    "action-items"
+   ],
+   "path": "skills/summarize-documents/SKILL.md",
+   "words": 549,
+   "files": 1
+  },
+  {
+   "name": "verify-chat",
+   "description": "Audit this chat when something may have gone wrong: a failed or stopped turn, a tool error, a wrong or made-up answer, a claim that a file was saved or a search was run when it wasn't. Use when the user says /verify-chat or asks you to check, verify, review or debug the conversation.",
+   "author": "Shell:B",
+   "authorUrl": "https://github.com/ShellB-App/Shell-B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "shell-b",
+    "verify",
+    "debugging",
+    "built-in"
+   ],
+   "path": "skills/verify-chat/SKILL.md",
+   "words": 397,
+   "files": 1
+  },
+  {
+   "name": "writing-feedback",
+   "description": "Give a writer useful feedback on their own work (a chapter, story, essay, article, poem or letter) and help them revise it without losing their voice. Use when the user shares a draft and asks what you think, asks for notes, critique, editing or proofreading, or wants help with a scene, structure, dialogue or style.",
+   "author": "Shell:B",
+   "authorUrl": "https://github.com/ShellB-App/Shell-B",
+   "license": "MIT",
+   "version": "1.0",
+   "tags": [
+    "writing",
+    "editing",
+    "fiction",
+    "feedback",
+    "proofreading"
+   ],
+   "path": "skills/writing-feedback/SKILL.md",
+   "words": 628,
+   "files": 1
   }
  ]
 }
